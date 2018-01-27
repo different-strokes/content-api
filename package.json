@@ -1,0 +1,19 @@
+{
+  "name": "content-api",
+  "version": "1.0.0",
+  "description": "Hydra Content API",
+  "author": "Fredrik Stave",
+  "license": "MIT",
+  "scripts": {
+    "build": "roc build",
+    "dev": "roc dev",
+    "start": "roc start"
+  },
+  "dependencies": {
+    "koa-router": "^5.4.0",
+    "roc-package-web-app": "1.0.0-beta.2"
+  },
+  "devDependencies": {
+    "roc-package-web-app-dev": "1.0.0-beta.2"
+  }
+}
