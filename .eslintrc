@@ -1,0 +1,28 @@
+{
+  "root": true,
+  "extends": "eslint-config-airbnb",
+
+  "env": {
+    "jest": true
+  },
+
+  "parser": "babel-eslint",
+
+  "plugins": ["eslint-plugin-babel"],
+
+  "rules": {
+    "indent": ["error", 2, {"SwitchCase": 1}],
+
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "never"
+    }],
+
+    "import/no-extraneous-dependencies": [0],
+    "import/no-unresolved": [1],
+    "import/extensions": [1]
+  },
+}
